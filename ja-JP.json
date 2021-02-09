@@ -1,0 +1,150 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "くまのこころ",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "おやすみ",
+                        "ストップ"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "KumaCallIntent",
+                    "slots": [],
+                    "samples": [
+                        "くまくま",
+                        "もふもふ",
+                        "遊ぼう",
+                        "かもん",
+                        "おいで",
+                        "起きて",
+                        "こんにちは",
+                        "おはよう"
+                    ]
+                },
+                {
+                    "name": "TeatimeIntent",
+                    "slots": [
+                        {
+                            "name": "treat",
+                            "type": "treat"
+                        },
+                        {
+                            "name": "drink",
+                            "type": "drink"
+                        }
+                    ],
+                    "samples": [
+                        "{treat}  を食べよう",
+                        "{treat}  にしよう",
+                        "{drink}  にしよう",
+                        "コーヒーブレイク",
+                        "休憩",
+                        "ティータイム"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "treat",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "キャンディ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ビスケット"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ロリポップ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "クッキー"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ショートブレッド"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゴーフレット"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "羊羹"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "チョコ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おやつ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "お菓子"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "drink",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "コーラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ジュース"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ココア"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コーヒー"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "お茶"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
